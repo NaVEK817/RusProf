@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/universal_new"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout="@layout/itogi_fragment"
+        android:id="@+id/itogi_fragment"
+        android:name="com.example.rusprof.FragmentItogi" />
+
+    <fragment
+        android:id="@+id/itg_fragment"
+        android:name="com.example.rusprof.FragmentSetResults"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        tools:layout="@layout/setresults_fragment" />
+
+    <fragment
+        android:id="@+id/mistakes_fragment"
+        tools:layout="@layout/mistakes_fragment"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.005"
+        android:name="com.example.rusprof.FragmentMistakes"/>
+    <fragment
+        android:id="@+id/mainmenu_fragment"
+        tools:layout="@layout/mainmenu_fragment"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.005"
+        android:name="com.example.rusprof.FragmentMainMenu"/>
+</LinearLayout>

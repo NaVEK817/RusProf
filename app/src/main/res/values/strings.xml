@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RusProf</string>
+    <string name="connection">http://h152771.s22.test-hf.su/ermolin/</string>
+    <string name="string_width">Itog.string_size</string>
+    <string name="stringTXT">System</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+</resources>

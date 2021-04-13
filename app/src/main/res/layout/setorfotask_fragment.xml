@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.rusprof.WordView
+        android:id="@+id/tV"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/tesxt_size"
+        app:word=""
+        android:fontFamily="@string/font_family_medium"/>
+</LinearLayout>

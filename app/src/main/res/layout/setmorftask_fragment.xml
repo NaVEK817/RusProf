@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/texttaskmorf"
+        android:layout_width="373dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/tesxt_size"
+        android:fontFamily="@string/font_family_medium"/>
+
+    <TextView
+        android:id="@+id/textanswermorf"
+        android:layout_width="347dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/tesxt_size"
+        android:fontFamily="@string/font_family_medium"/>
+
+    <EditText
+        android:id="@+id/edmorfe"
+        android:layout_width="228dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:descendantFocusability="beforeDescendants"
+        android:digits="абвгдеёжзийклмнопрстуфхцчшщъыьэюя\n"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions|textVisiblePassword"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="@dimen/tesxt_size"
+        android:fontFamily="@string/font_family_medium"/>
+</LinearLayout>

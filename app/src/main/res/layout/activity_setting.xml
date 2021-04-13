@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/lay2_new2"
+    >
+    <fragment
+        android:id="@+id/egg_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.rusprof.FragmentEasterEgg"
+        android:layout_gravity="center"
+        tools:layout="@layout/egg_fragment"/>
+    <fragment
+        android:id="@+id/justmaket1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout="@layout/void_fragment"
+        android:name="com.example.rusprof.FragmentVoid"/>
+    <fragment
+        android:id="@+id/ofroset_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:name="com.example.rusprof.FragmentOrfoSetting"
+        tools:layout="@layout/orfoset_fragment"
+       />
+
+    <fragment
+        android:id="@+id/morfset_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/morfset_fragment"
+        android:layout_gravity="center"
+        android:name="com.example.rusprof.FragmentMorfSetting"
+        />
+    <fragment
+        android:id="@+id/punktset_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/punktset_fragment"
+        android:layout_gravity="center"
+        android:name="com.example.rusprof.FragmentPunktSetting" />
+
+    <fragment
+        android:id="@+id/justmaket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        tools:layout="@layout/void_fragment"
+        android:name="com.example.rusprof.FragmentVoid"/>
+</LinearLayout>

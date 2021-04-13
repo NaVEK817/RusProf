@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/universal_new"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/mistakes_fragment"
+        tools:layout="@layout/mistakes_fragment"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.005"
+        android:name="com.example.rusprof.FragmentMistakes"/>
+    <fragment
+        android:id="@+id/setmistakes_fragment"
+        android:name="com.example.rusprof.FragmentSetMistakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout="@layout/setmistakes_fragment"
+        android:layout_weight="1"/>
+
+    <fragment
+        android:id="@+id/mainmenu_fragment"
+        android:name="com.example.rusprof.FragmentMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:layout="@layout/mainmenu_fragment" />
+    <!--        app:layout_constraintBottom_toTopOf="@+id/TEXT_STATUS_ID"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+</LinearLayout>
